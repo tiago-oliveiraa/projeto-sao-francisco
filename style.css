@@ -1,0 +1,89 @@
+
+
+
+body{
+    background-color: #b5c832;
+}
+
+
+
+@font-face {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    src: url();
+}
+
+.informacoes-iniciais li{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    background-color: #b5c832;;
+    margin: 10px;
+    cursor: pointer;
+    transition: text-transform, transform 500ms linear;
+    
+    
+}
+
+.informacoes-iniciais a{
+    text-decoration: none;
+    color: black;
+}
+.informacoes-iniciais li:hover{
+    transform: scale(1.1);
+    background-color: red ;
+    text-transform: uppercase;
+}
+
+.cabecalho{
+    display: inline-block;
+    background-color: #f4fd65;
+    width: 100%;
+    
+}
+
+.barra-pesquisa{
+    margin: 20px;
+    float: right;
+}
+
+.informacoes-iniciais{
+    font-size: 20px ;
+    display: inline-block;
+    float: right; 
+}   
+
+.fachada-santos{
+    padding: 20px;
+
+}
+
+.fachada-ramiro{
+    padding: 20px;
+
+}
+
+.santos{
+    
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.cachorro-gato{
+    position: relative;
+    left: 10%;
+}
+.rodape{
+
+    background-color: blueviolet ;
+    
+}
+
+.pet{
+    color:red;
+}
+
+
+
